@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5D50C1CF
+P 4750 2600
+F 0 "J2" H 4723 2480 50  0000 R CNN
+F 1 "3DS_POWER" H 4723 2571 50  0000 R CNN
+F 2 "" H 4750 2600 50  0001 C CNN
+F 3 "~" H 4750 2600 50  0001 C CNN
+	1    4750 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3300 2    50   Input ~ 0
+CC2
+Text GLabel 5050 3300 2    50   Input ~ 0
+CC1
+$Comp
+L Device:R R2
+U 1 1 5D50C54D
+P 4750 3550
+F 0 "R2" H 4820 3596 50  0000 L CNN
+F 1 "5.1K" H 4820 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 3550 50  0001 C CNN
+F 3 "~" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D50C5DD
+P 5050 3550
+F 0 "R1" H 5120 3596 50  0000 L CNN
+F 1 "5.1K" H 5120 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4980 3550 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3300 4750 3400
+Wire Wire Line
+	5050 3300 5050 3400
+$Comp
+L power:GND #PWR0103
+U 1 1 5D50C803
+P 4900 3700
+F 0 "#PWR0103" H 4900 3450 50  0001 C CNN
+F 1 "GND" H 4905 3527 50  0000 C CNN
+F 2 "" H 4900 3700 50  0001 C CNN
+F 3 "" H 4900 3700 50  0001 C CNN
+	1    4900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3700 4900 3700
+Connection ~ 4900 3700
+Wire Wire Line
+	4900 3700 5050 3700
+$Comp
+L TYPE-C-31-M-17:TYPE-C-31-M-17 J1
+U 1 1 5D50D522
+P 2400 2700
+F 0 "J1" H 3050 2965 50  0000 C CNN
+F 1 "TYPE-C-31-M-17" H 3050 2874 50  0000 C CNN
+F 2 "misc_footprints:TYPEC31M17" H 3550 2800 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903211732_Korean-Hroparts-Elec-TYPE-C-31-M-17_C283540.pdf" H 3550 2700 50  0001 L CNN
+F 4 "USB Connectors 6 Receptacle 1 RoHS" H 3550 2600 50  0001 L CNN "Description"
+F 5 "3.26" H 3550 2500 50  0001 L CNN "Height"
+F 6 "Korean Hroparts Elec" H 3550 2400 50  0001 L CNN "Manufacturer_Name"
+F 7 "TYPE-C-31-M-17" H 3550 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3550 2200 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3550 2100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3550 2000 50  0001 L CNN "RS Part Number"
+F 11 "" H 3550 1900 50  0001 L CNN "RS Price/Stock"
+	1    2400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5D50D821
+P 3700 2700
+F 0 "#PWR0101" H 3700 2550 50  0001 C CNN
+F 1 "VCC" V 3717 2828 50  0000 L CNN
+F 2 "" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5D50D83F
+P 2400 2900
+F 0 "#PWR0102" H 2400 2750 50  0001 C CNN
+F 1 "VCC" V 2418 3027 50  0000 L CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2400 2700 0    50   Input ~ 0
+CC1
+Text GLabel 3700 2800 2    50   Input ~ 0
+CC2
+$Comp
+L power:GND #PWR0104
+U 1 1 5D50DA0E
+P 4950 2700
+F 0 "#PWR0104" H 4950 2450 50  0001 C CNN
+F 1 "GND" H 4955 2527 50  0000 C CNN
+F 2 "" H 4950 2700 50  0001 C CNN
+F 3 "" H 4950 2700 50  0001 C CNN
+	1    4950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5D50DAB1
+P 4950 2600
+F 0 "#PWR0105" H 4950 2450 50  0001 C CNN
+F 1 "VCC" V 4967 2728 50  0000 L CNN
+F 2 "" H 4950 2600 50  0001 C CNN
+F 3 "" H 4950 2600 50  0001 C CNN
+	1    4950 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D50DACC
+P 3700 3200
+F 0 "#PWR0106" H 3700 2950 50  0001 C CNN
+F 1 "GND" H 3705 3027 50  0000 C CNN
+F 2 "" H 3700 3200 50  0001 C CNN
+F 3 "" H 3700 3200 50  0001 C CNN
+	1    3700 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2900 3700 3000
+Connection ~ 3700 3000
+Wire Wire Line
+	3700 3000 3700 3100
+Connection ~ 3700 3100
+Wire Wire Line
+	3700 3100 3700 3200
+$Comp
+L power:GND #PWR0107
+U 1 1 5D50DAF8
+P 2400 2800
+F 0 "#PWR0107" H 2400 2550 50  0001 C CNN
+F 1 "GND" H 2405 2627 50  0000 C CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D50DB1F
+P 2400 3050
+F 0 "#PWR0108" H 2400 2800 50  0001 C CNN
+F 1 "GND" H 2405 2877 50  0000 C CNN
+F 2 "" H 2400 3050 50  0001 C CNN
+F 3 "" H 2400 3050 50  0001 C CNN
+	1    2400 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3000 2400 3050
+Connection ~ 2400 3050
+Wire Wire Line
+	2400 3050 2400 3100
+$EndSCHEMATC
