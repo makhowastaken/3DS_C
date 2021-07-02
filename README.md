@@ -22,3 +22,8 @@ YouTube install: https://www.youtube.com/watch?v=8TaaZng31x4
 ![front](front.png)
 
 ![back](back.png)
+
+
+![20210701_202321.jpg](20210701_202321.jpg)
+
+![20210701_202325.jpg](20210701_202325.jpg)
