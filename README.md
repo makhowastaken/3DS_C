@@ -5,7 +5,7 @@ INSTALL AT YOUR OWN RISK!
 
 These worked perfectly fine for me but I have had several reports of blown fuses. The parts are extremely close together and at very high risk of short with improper handling or install. Consider omitting the pads for the dock charger. The wider USB C port makes clearance very tight and without proper insulation, the pad WILL short on the body (ground) of the port. Again, it worked for me but it's really tight. 
 
-Also, hi r/tsg
+Also, hi r/tsg and r/3d shacks
 
 ---
 
