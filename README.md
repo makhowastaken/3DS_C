@@ -5,8 +5,6 @@ INSTALL AT YOUR OWN RISK!
 
 These worked perfectly fine for me but I have had several reports of blown fuses. The parts are extremely close together and at very high risk of short with improper handling or install. Consider omitting the pads for the dock charger. The wider USB C port makes clearance very tight and without proper insulation, the pad WILL short on the body (ground) of the port. Again, it worked for me but it's really tight. 
 
-Also, hi r/tsg and r/3d shacks
-
 ---
 
 You can order some boards [from ohspark here](https://oshpark.com/shared_projects/H7cVX6ow) or use the supplied gerber file zip to upload to your preferred fab (does use castellated holes). I tested this successfully with 0.8mm PCBs
