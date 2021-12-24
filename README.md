@@ -9,7 +9,7 @@ These worked perfectly fine for me but I have had several reports of blown fuses
 
 You can order some boards [from ohspark here](https://oshpark.com/shared_projects/H7cVX6ow) or use the supplied gerber file zip to upload to your preferred fab (does use castellated holes). I tested this successfully with 0.8mm PCBs
 
-Otherwise all you need are the USB Type C ports: https://www.aliexpress.com/item/32885941456.html
+Otherwise all you need are the USB Type C ports: [Aliexpress](https://www.aliexpress.com/item/32885941456.html) or [LCSC](https://lcsc.com/product-detail/USB-Connectors_XKB-Connectivity-U262-061N-4BVC11_C2764612.html)
 
 And two optional (for Type C Host charging only) 5.1k 0603 resistors. 
 
